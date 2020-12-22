@@ -36,4 +36,11 @@ class HelperConfig implements ConfigInterface
             });
         }
     }
+
+    public function toArray()
+    {
+        return [
+            'invokables' => $this->helpers,
+        ];
+    }
 }

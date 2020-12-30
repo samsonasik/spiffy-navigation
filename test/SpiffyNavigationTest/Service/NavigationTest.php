@@ -7,11 +7,11 @@ use SpiffyNavigation\Listener\RbacListener;
 use SpiffyNavigationTest\AbstractTest;
 use SpiffyNavigation\Page\Page;
 use SpiffyNavigation\Service\Navigation;
-use Zend\Mvc\Router\Http\Segment;
-use Zend\Mvc\Router\RouteMatch;
-use Zend\Mvc\Router\Http\Literal;
-use Zend\Mvc\Router\Http\TreeRouteStack;
-use Zend\Mvc\Router\Http\Regex as RegexRoute;
+use Zend\Router\Http\Segment;
+use Zend\Router\RouteMatch;
+use Zend\Router\Http\Literal;
+use Zend\Router\Http\TreeRouteStack;
+use Zend\Router\Http\Regex as RegexRoute;
 use Zend\Permissions\Rbac\Rbac;
 
 class NavigationTest extends AbstractTest

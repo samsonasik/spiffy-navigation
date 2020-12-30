@@ -6,7 +6,7 @@ use PHPUnit_Framework_TestCase;
 use SpiffyNavigation\ContainerFactory;
 use SpiffyNavigation\Page\PageFactory;
 use SpiffyNavigation\Service\Navigation;
-use Zend\Mvc\Router\RouteMatch;
+use Zend\Router\RouteMatch;
 use Zend\Mvc\Service\ServiceManagerConfig;
 use Zend\ServiceManager\ServiceManager;
 use Zend\View\Renderer\PhpRenderer;

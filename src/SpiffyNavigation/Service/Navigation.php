@@ -12,8 +12,8 @@ use SpiffyNavigation\Page\Page;
 use Zend\EventManager\EventManager;
 use Zend\EventManager\EventManagerAwareInterface;
 use Zend\EventManager\EventManagerInterface;
-use Zend\Mvc\Router\RouteMatch;
-use Zend\Mvc\Router\RouteStackInterface;
+use Zend\Router\RouteMatch;
+use Zend\Router\RouteStackInterface;
 
 class Navigation implements EventManagerAwareInterface
 {
@@ -307,7 +307,7 @@ class Navigation implements EventManagerAwareInterface
     }
 
     /**
-     * @param \Zend\Mvc\Router\RouteStackInterface $router
+     * @param \Zend\Router\RouteStackInterface $router
      * @return $this
      */
     public function setRouter($router)
@@ -317,7 +317,7 @@ class Navigation implements EventManagerAwareInterface
     }
 
     /**
-     * @return \Zend\Mvc\Router\RouteStackInterface
+     * @return \Zend\Router\RouteStackInterface
      */
     public function getRouter()
     {

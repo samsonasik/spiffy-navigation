@@ -16,7 +16,7 @@
     ],
 
     "require": {
-        "php": "^7.2",
+        "php": "^7.2|~8.0",
         "zendframework/zend-console": "^2.8",
         "zendframework/zend-eventmanager": "^3.2",
         "zendframework/zend-form": "^2.14",

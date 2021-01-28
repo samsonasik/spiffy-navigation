@@ -30,7 +30,7 @@ class HelperConfig implements ConfigInterface
     {
         foreach ($this->helpers as $name => $className) {
             $serviceManager->setFactory($name, function(ServiceLocatorInterface $sm) use ($className) {
-                $class = new $className($sm->getServiceLocator()->get('SpiffyNavigation\Service\Navigation'));
+                $class = new $className($sm->get('SpiffyNavigation\Service\Navigation'));
 
                 return $class;
             });
